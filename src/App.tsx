@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ArrowRight, Database, Server, Users, Globe, Zap } from "lucide-react";
+import SystemDesignGlossary from "./Gloassarycomp";
 
 const App = () => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -275,6 +276,9 @@ const App = () => {
             </div>
           </div>
         </main>
+
+        <SystemDesignGlossary />
+
 
         {/* Navigation */}
         <footer className="flex justify-between items-center mt-8 md:mt-10">
